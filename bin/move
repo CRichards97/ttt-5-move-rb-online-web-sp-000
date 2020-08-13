@@ -7,4 +7,6 @@ name = gets.strip
 index = input_to_index(name)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move(board, index)
+display_board(board)
+
 # Code your CLI Here
